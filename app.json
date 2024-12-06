@@ -4,10 +4,10 @@
     "slug": "x-and-o",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/favicon.ico",
+    "icon": "./assets/favicon.png",
     "scheme": "myapp",
     "splash": {
-      "image": "./assets/favicon.ico",
+      "image": "./assets/favicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/favicon.ico",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.feras123.xando",
@@ -33,13 +33,13 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/favicon.ico"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       [
         "expo-notifications",
         {
-          "icon": "./assets/favicon.ico",
+          "icon": "./assets/favicon.png",
           "color": "#0000ff",
           "defaultChannel": "default",
           "enableBackgroundRemoteNotifications": false
@@ -85,7 +85,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/favicon.ico",
+          "image": "./assets/favicon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
